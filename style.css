@@ -416,7 +416,7 @@ header .navicitons a:hover{
     }
     
     header .navicitons a{
-        font-size: 0.8rem;
+        font-size: 0.75rem;
         margin-left: .7rem;
     }
     .maine .caption-container .caption-text{
@@ -436,7 +436,7 @@ header .navicitons a:hover{
         height: 15rem;
     }
     .about-teacher .about-div .iamge-about{
-        margin-top: 0.5rem;
+        margin-top: 0.7rem;
     }
     .about .title h1{
         font-size: .99rem;
