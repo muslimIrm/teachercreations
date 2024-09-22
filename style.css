@@ -1,0 +1,476 @@
+
+body, html{
+    font-family: 'Cairo', sans-serif;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    direction: rtl;
+
+}
+
+*{
+    font-family: 'Cairo', sans-serif;
+
+}
+
+:root{
+    --bk: #FFFDD0;
+    --border: .1rem solid #643d2c;
+}
+
+
+header{
+    background: var(--bk);
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    direction: ltr;
+}
+
+header .logo{
+    width: 5.7rem;
+    height: 4.45rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+header .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+header .navicitons{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 4rem;
+}
+
+header .navicitons a{
+    font-size: 1.3rem;
+    margin-left: 1.2rem;
+    text-decoration: none;
+    color: #654321;
+    font-weight: bold;
+
+}
+
+header .navicitons a:hover{
+    text-decoration: underline;
+}
+
+.maine{
+    background-image: url(image/bg.jpg);
+    background-size: cover;  
+    background-position: center;    
+    background-repeat: no-repeat;
+    opacity: 0.99;
+    width: 100%;
+    height: 50rem;
+    direction: rtl;
+}
+
+.maine .caption-container .caption-text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+    padding-top: 11rem;
+}
+
+.maine .caption-container .caption-text h1{
+    font-size: 2.5rem;
+}
+
+.maine .caption-container .caption-text p{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: #774936; /* خلفية شفافة */
+    width: 15rem;
+    height: 4.5rem;
+    border-radius: .8rem;
+    transition: background-color 0.3s, color 0.3s; /* تأثيرات التحويل */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s ease;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #643d2c; /* لون الخلفية عند المرور */
+    scale: calc(1.02);
+}
+
+
+.about-teacher{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    direction: ltr;
+}
+
+.about-teacher .about-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: .1rem solid #643d2c;
+}
+
+
+.title h1{
+    font-size: 1.7rem;
+    color: #000;
+    font-weight: bold;
+}
+
+
+.about-teacher .about-div .about{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    direction: rtl;
+    flex-direction: column;
+    margin-top: 0;
+}
+.about-teacher .about-div .iamge-about{
+    width: 50%;
+    height: 100%;
+    margin-top: 1rem;
+}
+.about-teacher .about-div .iamge-about img{
+    width: 100%;
+    height: 100%;
+    border: .1rem solid #643d2c;
+
+}
+.about-teacher .about-div .about .about-p{
+    width: 90%;
+}
+
+
+.about-teacher .about-div .about .about-p p{
+    width: 100%;
+    font-size: 1.3rem;
+    color: #643d2c;
+    font-weight: bold;
+    margin-right: 2rem;
+
+}
+
+
+
+
+
+.features .box-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.features .box-container .box{
+    width: 15rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0 , 0.5);
+    margin-top: 2rem;
+    transition: 0.5s ease;
+    margin-left: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.features .box-container .box:hover{
+    scale: calc(1.05);
+}
+
+
+
+
+
+.features .box-container .box .icon {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* لإعادة تمركز الأيقونة */
+    color: #52361b;
+}
+
+.features .box-container .box .icon i {
+    font-size: 3rem; /* زيادة حجم الأيقونة */
+    width: 100%; /* تأكد من أن العرض يتناسب مع الحجم */
+    height: 100%; /* تأكد من أن الارتفاع يتناسب مع الحجم */
+}
+
+.features .box-container .box .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.features .box-container .box .info .title-info{
+    font-size: 1rem;
+    height: 1rem;
+    margin-top: 1.4rem;
+    margin-bottom: .2rem;
+    text-decoration: none;
+}
+
+.features .box-container .box .info .description{
+    font-size: .9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.2rem;
+}
+
+.lessons{
+    width: 100%;
+    background: #52361b;
+}
+
+.lessons .box-lessons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lessons .box-lessons .box-lesson{
+    width: 25rem;
+    height: 18rem;
+    margin: 2rem;
+    background: #fff;
+    border-radius: .8rem;    
+
+}
+
+
+.lessons .box-lessons .box-lesson .image{
+    width: 100%;
+    height: 80%;
+    overflow: hidden;    
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem;
+}
+
+
+.lessons .box-lessons .box-lesson .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem;
+    transition: 0.7s ease;
+
+}
+
+.lessons .box-lessons .box-lesson:hover .image img{
+    transform: scale(1.05);
+}
+
+.lessons .box-lessons .box-lesson .info-lesson{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.lessons .box-lessons .box-lesson .info-lesson h3{
+    color: #000;
+    padding-right: 1rem;
+}
+.lessons .box-lessons .box-lesson .info-lesson p{
+    color: #362312;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+
+.contact{
+    width: 100%;
+    background: #362312;
+    margin-top: 2rem;
+    height: 30rem;
+}
+
+.contact .box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.contact .box-container .box{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+}
+.contact .box-container .box input{
+    margin-bottom: 1rem;
+    border: 0;
+    box-shadow: none;
+    background: rgba(255, 247, 247);
+}
+
+.contact .box-container .box input:focus{
+    outline: .1rem solid #ffc107 ;
+}
+
+
+.contact .box-container .box .tilte-input,
+.contact .box-container .box .e-mail-input
+{
+    width: 100%;
+    padding: 0.2rem;
+    height: 1.5rem;
+    border-radius: 0.3rem;
+    color: #000;
+    font-size: 1rem;
+}
+
+.contact .box-container .box .message-input{
+    width: 100%;
+    height: 6rem;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    color: #000;
+    font-size: 1rem;
+    resize: none; /* لإلغاء إمكانية تغيير الحجم */
+    box-sizing: border-box; /* لضمان احتساب الحشوة ضمن العرض */
+    overflow-y: auto; /* لإظهار شريط التمرير عند الحاجة */
+    margin-bottom: 1rem;
+    border: 0;
+    box-shadow: none;
+    background: rgba(255, 247, 247);
+}
+
+.contact .box-container .box .message-input:focus{
+    outline: .1rem solid #ffc107 ;
+}
+
+.contact .box-container .box .btn-contact{
+    width: 28%;
+    display: flex;
+    align-self: center;
+    border-radius: 1rem;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    cursor: not-allowed;
+    position: relative;
+}
+
+.contact .box-container .box button::after {
+    content: 'إرسال'; /* النص الافتراضي */
+    color: #362312;
+}
+
+.contact .box-container .box button:hover::after {
+    content: 'الزر معطل!'; /* النص الجديد عند المرور */
+    color: red;
+}
+
+.contact .box-container .box button:hover::before {
+    content: ''; /* إخفاء النص الأصلي */
+}
+
+
+@media (max-width: 768px) {
+    header{
+        height: 2.9rem;
+    }
+    header .logo{
+        width: 4rem;
+        height: 3rem;
+        margin-right: 1.5rem;
+    }
+    header .navicitons{
+        margin-left: 0.8rem;
+    }
+    
+    header .navicitons a{
+        font-size: 0.8rem;
+        margin-left: .7rem;
+    }
+    .maine .caption-container .caption-text{
+        margin-right: 5rem;
+        padding-top: 8rem;
+    }
+    .maine .caption-container .caption-text h1{
+        font-size: 2rem;
+    }
+    .maine .caption-container .caption-text p{
+        font-size: 1.1rem;
+    }
+    .title h1{
+        font-size: 1.3rem;
+    }
+    .about-teacher .about-div{
+        height: 15rem;
+    }
+    .about-teacher .about-div .iamge-about{
+        margin-top: 0.5rem;
+    }
+    .about .title h1{
+        font-size: .99rem;
+
+    }
+    .about-teacher .about-div .about .about-p p{
+        font-size: 0.65rem;
+        margin-right: 0.5rem;
+    }
+    .contact .box-container .box{
+
+        width: 70%;
+
+    }
+    .contact .box-container .box .btn-contact{
+        width: 35%;
+        font-size: 1rem;
+    }
+    .lessons .box-lessons .box-lesson{
+        width: 18.5rem;
+        height: 15.5rem;
+    }
+    .features .box-container .box{
+        width: 13rem;
+        height: 18rem;
+    }
+    .features .box-container .box .info .title-info{
+        font-size: 0.9rem;
+        height: 0.9rem;
+    }
+    .features .box-container .box .info .description{
+        font-size: .8rem;
+        margin-right: 0.8rem;
+    }
+}
+
+
